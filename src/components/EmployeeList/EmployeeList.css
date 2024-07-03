@@ -1,0 +1,16 @@
+.employee-list {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-list li {
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.employee-list li:hover {
+  background-color: burlywood;
+  transition: background-color 0.5s ease;
+}
